@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+#ball {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 9999; /* Over all text */
+    left: 0;
+    top: 0;
+}
